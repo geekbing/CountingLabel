@@ -12,7 +12,10 @@ import ChameleonFramework
 
 class Main: UIViewController
 {
-    var cardView: CardView!
+    var cardView1: CardView!
+    var cardView2: CardView!
+    var cardView3: CardView!
+    var cardView4: CardView!
     
     override func viewDidLoad()
     {
@@ -20,21 +23,21 @@ class Main: UIViewController
         view.backgroundColor = UIColor.whiteColor()
 
         // 整数Demo
-        let cardView1 = CardView()
+        cardView1 = CardView()
         cardView1.totalMoney?.text = "0"
         cardView1.totalMoney?.format = "%.0f"
         cardView1.totalMoney?.countFrom(fromNum: 0, toNum: 100, duration: 1.0)
         view.addSubview(cardView1)
         
         // 浮点型Demo
-        let cardView2 = CardView()
+        cardView2 = CardView()
         cardView2.totalMoney?.text = "1.02"
         cardView2.totalMoney?.format = "%.2f"
         cardView2.totalMoney?.countFrom(fromNum: 1.02, toNum: 520.00, duration: 2.0)
         view.addSubview(cardView2)
         
         // 千分位分隔符Demo
-        let cardView3 = CardView()
+        cardView3 = CardView()
         cardView3.totalMoney?.text = "1.02"
         cardView3.totalMoney?.formatBlock = { (value: Double) -> NSString in
             let str = NSString(format: "%.2f", value)
@@ -50,9 +53,9 @@ class Main: UIViewController
         view.addSubview(cardView3)
         
         // 点击启动Demo
-        cardView = CardView()
-        cardView.totalMoney?.text = "1.02"
-        cardView.totalMoney?.formatBlock = { (value: Double) -> NSString in
+        cardView4 = CardView()
+        cardView4.totalMoney?.text = "1.02"
+        cardView4.totalMoney?.formatBlock = { (value: Double) -> NSString in
             let str = NSString(format: "%.2f", value)
             
             // 按照千分位分隔符输出
@@ -62,7 +65,7 @@ class Main: UIViewController
             
             return formatter.stringFromNumber(NSNumber(double: str.doubleValue))!
         }
-        view.addSubview(cardView)
+        view.addSubview(cardView4)
         
         // 重启按钮
         let startBtn = UIButton()
@@ -97,7 +100,7 @@ class Main: UIViewController
             make.right.equalTo(self.view).offset(-20)
             make.height.equalTo(100)
         }
-        cardView.snp_makeConstraints { (make) in
+        cardView4.snp_makeConstraints { (make) in
             make.top.equalTo(cardView3.snp_bottom).offset(20)
             make.left.equalTo(self.view).offset(20)
             make.right.equalTo(self.view).offset(-20)
@@ -106,13 +109,13 @@ class Main: UIViewController
         startBtn.snp_makeConstraints { (make) in
             make.width.equalTo(100)
             make.height.equalTo(30)
-            make.top.equalTo(cardView.snp_bottom).offset(20)
+            make.top.equalTo(cardView4.snp_bottom).offset(20)
             make.centerX.equalTo(view).offset(-100)
         }
         stopBtn.snp_makeConstraints { (make) in
             make.width.equalTo(100)
             make.height.equalTo(30)
-            make.top.equalTo(cardView.snp_bottom).offset(20)
+            make.top.equalTo(cardView4.snp_bottom).offset(20)
             make.centerX.equalTo(view).offset(100)
         }
     }
@@ -120,15 +123,15 @@ class Main: UIViewController
     // 点击重新启动按钮
     func startBtnClick()
     {
-        cardView.totalMoney?.countFrom(fromNum: 1.02, toNum: 10000013145.20, duration: 4.0)
+        cardView4.totalMoney?.countFrom(fromNum: 1.02, toNum: 10000013145.20, duration: 4.0)
     }
     
     // 点击停止按钮
     func stopBtnClick()
     {
-        cardView.totalMoney?.stopCounting()
+        cardView4.totalMoney?.stopCounting()
     }
-    
+   
     override func didReceiveMemoryWarning()
     {
         super.didReceiveMemoryWarning()
