@@ -1,0 +1,6 @@
+framework module Pods_CuntingLabel {
+  umbrella header "Pods-CuntingLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

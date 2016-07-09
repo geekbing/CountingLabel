@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00967A34C0778275E41D1CBA32E398F8 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C2357D77417D5DBD09FF2AE4EBA741 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C6F32401BCBE9FF9B3C095B031D92B /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = BE42B3662ACCF6767E8AE9033438B2C1 /* UIColor+Chameleon.m */; };
+		097AE4014349090D14C6C5637F8A3464 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F94EA3D3836940F76EA9D829C6DD467 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AA166EF68FDE80F7893955CA9817F6F /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36D9B61FC052D0DBC49A3048704CAF0 /* ConstraintItem.swift */; };
+		1090B6EA10EC1A8705A2F1C792B197EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		1236ECB96A915EC617957A42838CDD7B /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD04121D4F033D72842450B24ABADC /* ChameleonConstants.m */; };
+		15E113F19F49C0C0472242BD6E849A1B /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD0F7A500DAA841912D2774085DFE28 /* UIImage+ChameleonPrivate.m */; };
+		1736C9EB167121B7B4033DB3304686AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */; };
+		176EC707D0B06FB57AAEE9A773EBA4D2 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD726741A38E9499BADC149854129EB /* View+SnapKit.swift */; };
+		24E7D20FD204AF7AACB30A3B7C16388C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAAF173083ECB3A24D4F457BFE65C24 /* NSArray+Chameleon.m */; };
+		3866ACB5CF90B195855FCC68EC51174D /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E410CFFF50059F35A634854A9DFFEA21 /* Constraint.swift */; };
+		4194C2418EEF62E01342A820B5EF9C71 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = ABECDBFF9EE37FEF4F6AE197DE696F51 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43DA6808D1DFF1924A1F619226953AE7 /* Pods-CuntingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B00111B62FF619C6032B4B73E5F6917 /* Pods-CuntingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455E2A5D48DB53E9CC7013FD8B34189E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		4A0E71E9E2BD86AA8CB6077A95CDC034 /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 0258FC47AFCFF5FBBB475D4A6E175CD7 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C6CEBA607BEA909A9CCB80C6AB6AE88 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 677ABC949914D4A431D7B8ED20994E11 /* UINavigationController+Chameleon.m */; };
+		4C76EF27EBFBFAA01C67FBBEAE2029B7 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EF7811815BCD86114C1E9D303FA230 /* SnapKit.swift */; };
+		4F367EB70B75939773B0E62D64DB9EF4 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E86311134220A43CFCB721CC133AEAA /* LayoutConstraint.swift */; };
+		5177B3B95985D0A2CF8376A6FD4488C2 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8570A0A2F1AFFB183C0F13963B37221E /* UIViewController+Chameleon.m */; };
+		5CCC419BB423F48192FBA3C7D7D6B7DA /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C77AB441B44D825CF64A3DA8EDC577B /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C89D98B9D3B9C57971E1E137233980 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 189DFEF6DD0D84BF53DC6850625F9AF1 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BBC203796FACB155FF0C1C15AF96138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		6FFDAD2F800BC27FCF40E92B71D88CF3 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAA06BBEC9093327AE93715257F6FF5 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738E4E0555CE3C233C400AE87B9887E4 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 7069CD22A4B24E4CDDE60878F5C96B1E /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7708E07C85FF6C2BC400C15CCDB7EB1C /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6E1B4F4B0F85D249D16A1D9BDA1C50 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CB2D4C542E9B72FA525F9C1B9D5AC06 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F85D5958E9DB7176CDBC255736FF47 /* ConstraintMaker.swift */; };
+		7EC9330EBDF327051B12E42AE8741B6E /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5B3B46CE218059A9CA7C3C54AA6BEE /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80574E42933C12B655F8157CDEB6EB1C /* Pods-CuntingLabelTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A54EB1C852BEB672EE226449A75C590C /* Pods-CuntingLabelTests-dummy.m */; };
+		81840B35F7DD7F3CA4592E2B6893B933 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA250D6AAA3D67B08752113FC8DF203 /* QuartzCore.framework */; };
+		836EF498AE71D2602AE071622D43CC69 /* Pods-CuntingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE72292D8E158B4CAD8070738CA4C11 /* Pods-CuntingLabel-dummy.m */; };
+		8B2B5D197CA69C03F2225537D85A3F05 /* Pods-CuntingLabelUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 216C1BDE1AF2D00698D3AF6A5529F5BE /* Pods-CuntingLabelUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B365A3A01EF135485F43412F83C7C65 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DCC826457A65C61463DB6C237F486A /* Chameleon_.m */; };
+		9B3EEA3CFA303B0D28A8034C16BFDA15 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B555B6E0E71607C7CB8B5EC9CEED00 /* UILabel+Chameleon.m */; };
+		9E3D2B7DA138BF7D68036714B5A3B701 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E9C8AD05BD049E84E0BD4C8CCA8A77 /* Debugging.swift */; };
+		A2AC9FD0F42F638C48E72F88E8BC4C80 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC6E35CFB09A7429E95F394CF577BF /* ChameleonShorthand.swift */; };
+		A46A3EAB602FB4840C5AB8493F86AE4F /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C1ABA631E0FD58EA8056A7783A6D45 /* UIButton+Chameleon.m */; };
+		A7656485B76A44BEAE798F836F5BC27C /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FA120932ED9551EC19C919AF68E1E6 /* ConstraintAttributes.swift */; };
+		A8DCFCBBDF0EAF948122F3D0B95AAC3B /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E3BFAAA6FDC85AF134824B706372B5 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF9FDFE994A206795619E469B68C614E /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = DC60978238550FF1066E74DCDF126524 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E40E7FF3A25A4F1C59875B848CD842 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CB599C75B3BDE0FDD6422173A68AA4 /* ConstraintRelation.swift */; };
+		B71968ADC80D9CA74C57959B609E46F6 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5DDFF473716A3EA3C20F99D662C54F /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C9250278390D6AF76833BA195DEA21 /* Pods-CuntingLabelUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 233E69DB0BD136899D79AECAD6CFCB75 /* Pods-CuntingLabelUITests-dummy.m */; };
+		C08DCA5180F1A15542694844C66B0EFB /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = E06EA51E6C89655E37868326195223B5 /* UIView+ChameleonPrivate.m */; };
+		C55BB4A252C9B694A1D26086AAB56E78 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D653A933AB1DEA0C8F2F00B21CE2CE6 /* ConstraintDescription.swift */; };
+		C56715921B7E90C1F4C2D0D405B37FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		C8F191C4FA3530AAEBAD2DDE2604DCF2 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E23C51A47F4A7A6C2786C7AD5FD83E42 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB8C96C7D3F7331E409D296466B923A /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DFC50A55E7E3FD4CD3858D6440C3A6 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B61A78124FCB785E11A98BDD0471BC /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = BD59E344D352C71D22BDF3857318C336 /* UIAppearance+Swift.m */; };
+		D36BC9B0C925A5244E16EE70E4809EE6 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 688EB41F4FBE315A2CC150360C5D15D4 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE532ADC20BE069A1F9160FC280E7E20 /* Pods-CuntingLabelTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 090A4DB4B55C2C93027C2192D062C78F /* Pods-CuntingLabelTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AFA39DA4A01D8A8FE3D4EC76250F46 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB11778A5110C612F61291F1BCE2C133 /* UIColor+ChameleonPrivate.m */; };
+		E0C720836FBA4E75E3E57069219B7107 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D0617F2DC23B64848F3A62597A6929B /* ChameleonFramework-dummy.m */; };
+		E3C064D8777AF800822CBA19D80A7A3C /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E38229001FAE8DC660F8AE3CCC05C69B /* SnapKit-dummy.m */; };
+		E40E50B03C60D676D66FAD62322C7B62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */; };
+		EDE12978B3BB8AD4A68940CB07878C96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */; };
+		F14A978C66D9582A60BC3AD765386B62 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C0DB8339F83FE9B65FCA5A21112EFF /* EdgeInsets.swift */; };
+		FD581E49BD638EC0CB590EF2AB2865AB /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343A67952DA82C3518DB024D868D546 /* ViewController+SnapKit.swift */; };
+		FF4A8EFE1154C1FFD58B48E978298871 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 529E755524BF8ADB41F60A31B272DAF1 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4472D3685D3F2D4FD0A27AFD89026873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DAEF9FB54DB43748A2D6667301896B;
+			remoteInfo = SnapKit;
+		};
+		53738675C11440856310FC9F1497B5D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5172ACAB7FEA22813859DC97CA0AA16F;
+			remoteInfo = ChameleonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0258FC47AFCFF5FBBB475D4A6E175CD7 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		04DFC50A55E7E3FD4CD3858D6440C3A6 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		090A4DB4B55C2C93027C2192D062C78F /* Pods-CuntingLabelTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CuntingLabelTests-umbrella.h"; sourceTree = "<group>"; };
+		0CAA06BBEC9093327AE93715257F6FF5 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		0E86311134220A43CFCB721CC133AEAA /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		12AD56F11798E59A636130E041B99B39 /* Pods-CuntingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuntingLabel.release.xcconfig"; sourceTree = "<group>"; };
+		187529FF227B9DB753478E8796490B61 /* Pods-CuntingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuntingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		189DFEF6DD0D84BF53DC6850625F9AF1 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		1B00111B62FF619C6032B4B73E5F6917 /* Pods-CuntingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CuntingLabel-umbrella.h"; sourceTree = "<group>"; };
+		216C1BDE1AF2D00698D3AF6A5529F5BE /* Pods-CuntingLabelUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CuntingLabelUITests-umbrella.h"; sourceTree = "<group>"; };
+		22EF7811815BCD86114C1E9D303FA230 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		22FF29D60C49C6AE7B05E20329981DB1 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		233E69DB0BD136899D79AECAD6CFCB75 /* Pods-CuntingLabelUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CuntingLabelUITests-dummy.m"; sourceTree = "<group>"; };
+		23B5988DC5458808ECB6EA7A6A9AA1C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27EBE8C1400A208A10C508C7B0F849F3 /* Pods-CuntingLabelUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuntingLabelUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		29D95D0DAD3FA4323F6EFD39785676EB /* Pods-CuntingLabel-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuntingLabel-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A1A319A11AB65007D3ACE6C8D11D0EE /* Pods-CuntingLabelUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuntingLabelUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2BF6AD9C0D2AE4276538138CECA0DBE4 /* Pods-CuntingLabelTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CuntingLabelTests.modulemap"; sourceTree = "<group>"; };
+		2C77AB441B44D825CF64A3DA8EDC577B /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		2CD10A771D32DDA7CCAD2FFB8B1407C8 /* Pods-CuntingLabel-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuntingLabel-resources.sh"; sourceTree = "<group>"; };
+		2EE72292D8E158B4CAD8070738CA4C11 /* Pods-CuntingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CuntingLabel-dummy.m"; sourceTree = "<group>"; };
+		32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		35167311A27AF18F74D6918FE2E5E385 /* Pods-CuntingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuntingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		354B01763E44C5E6B0C2EB391BB826FC /* Pods-CuntingLabelUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CuntingLabelUITests.modulemap"; sourceTree = "<group>"; };
+		3D653A933AB1DEA0C8F2F00B21CE2CE6 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		3F5389FCA5759AF3A969A8C8D8028872 /* Pods-CuntingLabelTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CuntingLabelTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		43C0DB8339F83FE9B65FCA5A21112EFF /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		529E755524BF8ADB41F60A31B272DAF1 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		54CD04121D4F033D72842450B24ABADC /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		55E9C8AD05BD049E84E0BD4C8CCA8A77 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		5F94EA3D3836940F76EA9D829C6DD467 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		625B83948A79C33B9D73D05C0FD102D5 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		65806675E3505698F66F529480EF77BB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677ABC949914D4A431D7B8ED20994E11 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		67CAB3BD4D631545619BEF754992BA46 /* Pods-CuntingLabel-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuntingLabel-frameworks.sh"; sourceTree = "<group>"; };
+		688EB41F4FBE315A2CC150360C5D15D4 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		6D0617F2DC23B64848F3A62597A6929B /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		700261C11251A532ED43B167FB1F7FE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7069CD22A4B24E4CDDE60878F5C96B1E /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		797DFB68C8BD826218DCFDEF0EADA950 /* Pods-CuntingLabelUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CuntingLabelUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D7A547FC9EED9A7D1D6BE970B738DDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83C2357D77417D5DBD09FF2AE4EBA741 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		840198408312E42F6519D06D6C6C8DEE /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		8570A0A2F1AFFB183C0F13963B37221E /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		87F85D5958E9DB7176CDBC255736FF47 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		8959DEB12D05C6247C95CC8B7B5AD46D /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8992A2C3CA8D596EB276601B08BEB1C9 /* Pods-CuntingLabelTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuntingLabelTests-frameworks.sh"; sourceTree = "<group>"; };
+		8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92543C2CA6E4C844DDAD389B41D00C57 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		92E52EC86A1A7C11009690EB1AD83353 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A6E1B4F4B0F85D249D16A1D9BDA1C50 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		9FD726741A38E9499BADC149854129EB /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		A54EB1C852BEB672EE226449A75C590C /* Pods-CuntingLabelTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CuntingLabelTests-dummy.m"; sourceTree = "<group>"; };
+		A5A79B4C50C0645F37E3B0C1EC89A652 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		ABAF8895173D4B811671CCB59F0CD2A9 /* Pods-CuntingLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuntingLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABECDBFF9EE37FEF4F6AE197DE696F51 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		B519C9C816893F926D5C4A128E361F8B /* Pods_CuntingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuntingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55E5DA66002B3EBF7A0A95FC9A57C28 /* Pods-CuntingLabelUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuntingLabelUITests-resources.sh"; sourceTree = "<group>"; };
+		B5E18B571ED3F14DA525FF25279A7FB6 /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB11778A5110C612F61291F1BCE2C133 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		BC5B3B46CE218059A9CA7C3C54AA6BEE /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		BD59E344D352C71D22BDF3857318C336 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		BE42B3662ACCF6767E8AE9033438B2C1 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		BF7D38E418093947F6049F0B58D606C1 /* Pods_CuntingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuntingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FA120932ED9551EC19C919AF68E1E6 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		C1CC6E35CFB09A7429E95F394CF577BF /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		C1F6CC213E08CCD03BC5F80D19BB06A2 /* Pods-CuntingLabelTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CuntingLabelTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAA250D6AAA3D67B08752113FC8DF203 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		CE040A6D9A1ED55102326C99E5666635 /* Pods-CuntingLabel-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CuntingLabel-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2E3BFAAA6FDC85AF134824B706372B5 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		D5B555B6E0E71607C7CB8B5EC9CEED00 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		DAAAF173083ECB3A24D4F457BFE65C24 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		DC60978238550FF1066E74DCDF126524 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		DE5DDFF473716A3EA3C20F99D662C54F /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		DFFA091EAC41E56732BECAB3770C20BD /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		E06EA51E6C89655E37868326195223B5 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		E1CB599C75B3BDE0FDD6422173A68AA4 /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		E23C51A47F4A7A6C2786C7AD5FD83E42 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		E2B850F6F90C0055ECBDE8DD547A23C7 /* Pods-CuntingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CuntingLabel.modulemap"; sourceTree = "<group>"; };
+		E2F8A8C6C2B95458FD7464685F8C39FF /* Pods-CuntingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuntingLabel.debug.xcconfig"; sourceTree = "<group>"; };
+		E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		E36D9B61FC052D0DBC49A3048704CAF0 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		E38229001FAE8DC660F8AE3CCC05C69B /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		E410CFFF50059F35A634854A9DFFEA21 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		E594D4207A8AAF0CEFAAA9FB3438C9C1 /* Pods_CuntingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuntingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08CAF4865030F3709249F1D36254422 /* Pods-CuntingLabelTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CuntingLabelTests-resources.sh"; sourceTree = "<group>"; };
+		F343A67952DA82C3518DB024D868D546 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		F3C1ABA631E0FD58EA8056A7783A6D45 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		F6DCC826457A65C61463DB6C237F486A /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		F9604F98B37816C77F3ED36B8064BF50 /* Pods-CuntingLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CuntingLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FDD0F7A500DAA841912D2774085DFE28 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1671205C34EA46569F3EEEEC4B23C3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1090B6EA10EC1A8705A2F1C792B197EF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366EBECC8B6069A65EBF97D24C5D00C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BBC203796FACB155FF0C1C15AF96138 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4432A82662DF3A541EE6E2638EECEFC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455E2A5D48DB53E9CC7013FD8B34189E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22F8D7D9DC751D867314AD41E885ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56715921B7E90C1F4C2D0D405B37FBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1A73E30C8322A70D5DCD63B04CAE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1736C9EB167121B7B4033DB3304686AE /* CoreGraphics.framework in Frameworks */,
+				E40E50B03C60D676D66FAD62322C7B62 /* Foundation.framework in Frameworks */,
+				81840B35F7DD7F3CA4592E2B6893B933 /* QuartzCore.framework in Frameworks */,
+				EDE12978B3BB8AD4A68940CB07878C96 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0221367FC5E4095EFE0DC83761019D64 /* Pods-CuntingLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7D7A547FC9EED9A7D1D6BE970B738DDC /* Info.plist */,
+				2BF6AD9C0D2AE4276538138CECA0DBE4 /* Pods-CuntingLabelTests.modulemap */,
+				3F5389FCA5759AF3A969A8C8D8028872 /* Pods-CuntingLabelTests-acknowledgements.markdown */,
+				C1F6CC213E08CCD03BC5F80D19BB06A2 /* Pods-CuntingLabelTests-acknowledgements.plist */,
+				A54EB1C852BEB672EE226449A75C590C /* Pods-CuntingLabelTests-dummy.m */,
+				8992A2C3CA8D596EB276601B08BEB1C9 /* Pods-CuntingLabelTests-frameworks.sh */,
+				F08CAF4865030F3709249F1D36254422 /* Pods-CuntingLabelTests-resources.sh */,
+				090A4DB4B55C2C93027C2192D062C78F /* Pods-CuntingLabelTests-umbrella.h */,
+				187529FF227B9DB753478E8796490B61 /* Pods-CuntingLabelTests.debug.xcconfig */,
+				ABAF8895173D4B811671CCB59F0CD2A9 /* Pods-CuntingLabelTests.release.xcconfig */,
+			);
+			name = "Pods-CuntingLabelTests";
+			path = "Target Support Files/Pods-CuntingLabelTests";
+			sourceTree = "<group>";
+		};
+		0A12AA799123887D16DDA518239A027F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59C406518B123C4BA49A9CA0E0DF8086 /* Pods-CuntingLabel */,
+				0221367FC5E4095EFE0DC83761019D64 /* Pods-CuntingLabelTests */,
+				B3A4ABB67F059233843680ED5D1E16EF /* Pods-CuntingLabelUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE9CAD94F3ADC0A91CD07526E38EDDFA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		291B808E176904AA4372DB6F3921FA67 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				BC5B3B46CE218059A9CA7C3C54AA6BEE /* Chameleon.h */,
+				7069CD22A4B24E4CDDE60878F5C96B1E /* Chameleon_.h */,
+				F6DCC826457A65C61463DB6C237F486A /* Chameleon_.m */,
+				5F94EA3D3836940F76EA9D829C6DD467 /* ChameleonConstants.h */,
+				54CD04121D4F033D72842450B24ABADC /* ChameleonConstants.m */,
+				0258FC47AFCFF5FBBB475D4A6E175CD7 /* ChameleonEnums.h */,
+				2C77AB441B44D825CF64A3DA8EDC577B /* ChameleonMacros.h */,
+				529E755524BF8ADB41F60A31B272DAF1 /* NSArray+Chameleon.h */,
+				DAAAF173083ECB3A24D4F457BFE65C24 /* NSArray+Chameleon.m */,
+				DE5DDFF473716A3EA3C20F99D662C54F /* UIAppearance+Swift.h */,
+				BD59E344D352C71D22BDF3857318C336 /* UIAppearance+Swift.m */,
+				E23C51A47F4A7A6C2786C7AD5FD83E42 /* UIButton+Chameleon.h */,
+				F3C1ABA631E0FD58EA8056A7783A6D45 /* UIButton+Chameleon.m */,
+				04DFC50A55E7E3FD4CD3858D6440C3A6 /* UIColor+Chameleon.h */,
+				BE42B3662ACCF6767E8AE9033438B2C1 /* UIColor+Chameleon.m */,
+				ABECDBFF9EE37FEF4F6AE197DE696F51 /* UIColor+ChameleonPrivate.h */,
+				BB11778A5110C612F61291F1BCE2C133 /* UIColor+ChameleonPrivate.m */,
+				9A6E1B4F4B0F85D249D16A1D9BDA1C50 /* UIImage+ChameleonPrivate.h */,
+				FDD0F7A500DAA841912D2774085DFE28 /* UIImage+ChameleonPrivate.m */,
+				83C2357D77417D5DBD09FF2AE4EBA741 /* UILabel+Chameleon.h */,
+				D5B555B6E0E71607C7CB8B5EC9CEED00 /* UILabel+Chameleon.m */,
+				0CAA06BBEC9093327AE93715257F6FF5 /* UINavigationController+Chameleon.h */,
+				677ABC949914D4A431D7B8ED20994E11 /* UINavigationController+Chameleon.m */,
+				688EB41F4FBE315A2CC150360C5D15D4 /* UIView+ChameleonPrivate.h */,
+				E06EA51E6C89655E37868326195223B5 /* UIView+ChameleonPrivate.m */,
+				DC60978238550FF1066E74DCDF126524 /* UIViewController+Chameleon.h */,
+				8570A0A2F1AFFB183C0F13963B37221E /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		2AAB597CD6135BA001596B229F247A86 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				700261C11251A532ED43B167FB1F7FE8 /* Info.plist */,
+				840198408312E42F6519D06D6C6C8DEE /* SnapKit.modulemap */,
+				A5A79B4C50C0645F37E3B0C1EC89A652 /* SnapKit.xcconfig */,
+				E38229001FAE8DC660F8AE3CCC05C69B /* SnapKit-dummy.m */,
+				22FF29D60C49C6AE7B05E20329981DB1 /* SnapKit-prefix.pch */,
+				D2E3BFAAA6FDC85AF134824B706372B5 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		4AFBB764142EA9C5B23CB96F9C721BC0 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				E410CFFF50059F35A634854A9DFFEA21 /* Constraint.swift */,
+				C0FA120932ED9551EC19C919AF68E1E6 /* ConstraintAttributes.swift */,
+				3D653A933AB1DEA0C8F2F00B21CE2CE6 /* ConstraintDescription.swift */,
+				E36D9B61FC052D0DBC49A3048704CAF0 /* ConstraintItem.swift */,
+				87F85D5958E9DB7176CDBC255736FF47 /* ConstraintMaker.swift */,
+				E1CB599C75B3BDE0FDD6422173A68AA4 /* ConstraintRelation.swift */,
+				55E9C8AD05BD049E84E0BD4C8CCA8A77 /* Debugging.swift */,
+				43C0DB8339F83FE9B65FCA5A21112EFF /* EdgeInsets.swift */,
+				0E86311134220A43CFCB721CC133AEAA /* LayoutConstraint.swift */,
+				22EF7811815BCD86114C1E9D303FA230 /* SnapKit.swift */,
+				9FD726741A38E9499BADC149854129EB /* View+SnapKit.swift */,
+				F343A67952DA82C3518DB024D868D546 /* ViewController+SnapKit.swift */,
+				2AAB597CD6135BA001596B229F247A86 /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		59C406518B123C4BA49A9CA0E0DF8086 /* Pods-CuntingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				65806675E3505698F66F529480EF77BB /* Info.plist */,
+				E2B850F6F90C0055ECBDE8DD547A23C7 /* Pods-CuntingLabel.modulemap */,
+				CE040A6D9A1ED55102326C99E5666635 /* Pods-CuntingLabel-acknowledgements.markdown */,
+				29D95D0DAD3FA4323F6EFD39785676EB /* Pods-CuntingLabel-acknowledgements.plist */,
+				2EE72292D8E158B4CAD8070738CA4C11 /* Pods-CuntingLabel-dummy.m */,
+				67CAB3BD4D631545619BEF754992BA46 /* Pods-CuntingLabel-frameworks.sh */,
+				2CD10A771D32DDA7CCAD2FFB8B1407C8 /* Pods-CuntingLabel-resources.sh */,
+				1B00111B62FF619C6032B4B73E5F6917 /* Pods-CuntingLabel-umbrella.h */,
+				E2F8A8C6C2B95458FD7464685F8C39FF /* Pods-CuntingLabel.debug.xcconfig */,
+				12AD56F11798E59A636130E041B99B39 /* Pods-CuntingLabel.release.xcconfig */,
+			);
+			name = "Pods-CuntingLabel";
+			path = "Target Support Files/Pods-CuntingLabel";
+			sourceTree = "<group>";
+		};
+		6281E59EE1F5C20A8FD5BC0364CF1535 /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				291B808E176904AA4372DB6F3921FA67 /* Default */,
+				E780249F91911A730E333A90D2310F4A /* Support Files */,
+				FEFD933C667702BEE72C1370D69F5085 /* Swift */,
+			);
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		75CA08817E507FFD7FD7AB37C930A395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6281E59EE1F5C20A8FD5BC0364CF1535 /* ChameleonFramework */,
+				4AFBB764142EA9C5B23CB96F9C721BC0 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				75CA08817E507FFD7FD7AB37C930A395 /* Pods */,
+				943B0D6F55B1EC42A534F4F4373913E9 /* Products */,
+				0A12AA799123887D16DDA518239A027F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		943B0D6F55B1EC42A534F4F4373913E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5E18B571ED3F14DA525FF25279A7FB6 /* ChameleonFramework.framework */,
+				BF7D38E418093947F6049F0B58D606C1 /* Pods_CuntingLabel.framework */,
+				E594D4207A8AAF0CEFAAA9FB3438C9C1 /* Pods_CuntingLabelTests.framework */,
+				B519C9C816893F926D5C4A128E361F8B /* Pods_CuntingLabelUITests.framework */,
+				8959DEB12D05C6247C95CC8B7B5AD46D /* SnapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A4ABB67F059233843680ED5D1E16EF /* Pods-CuntingLabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23B5988DC5458808ECB6EA7A6A9AA1C8 /* Info.plist */,
+				354B01763E44C5E6B0C2EB391BB826FC /* Pods-CuntingLabelUITests.modulemap */,
+				797DFB68C8BD826218DCFDEF0EADA950 /* Pods-CuntingLabelUITests-acknowledgements.markdown */,
+				27EBE8C1400A208A10C508C7B0F849F3 /* Pods-CuntingLabelUITests-acknowledgements.plist */,
+				233E69DB0BD136899D79AECAD6CFCB75 /* Pods-CuntingLabelUITests-dummy.m */,
+				2A1A319A11AB65007D3ACE6C8D11D0EE /* Pods-CuntingLabelUITests-frameworks.sh */,
+				B55E5DA66002B3EBF7A0A95FC9A57C28 /* Pods-CuntingLabelUITests-resources.sh */,
+				216C1BDE1AF2D00698D3AF6A5529F5BE /* Pods-CuntingLabelUITests-umbrella.h */,
+				35167311A27AF18F74D6918FE2E5E385 /* Pods-CuntingLabelUITests.debug.xcconfig */,
+				F9604F98B37816C77F3ED36B8064BF50 /* Pods-CuntingLabelUITests.release.xcconfig */,
+			);
+			name = "Pods-CuntingLabelUITests";
+			path = "Target Support Files/Pods-CuntingLabelUITests";
+			sourceTree = "<group>";
+		};
+		BE9CAD94F3ADC0A91CD07526E38EDDFA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E3212D7BC0710FE50E49B5AD2D9C0D0F /* CoreGraphics.framework */,
+				8D31AF728F56D0CAFFECA7DF51E2E0E6 /* Foundation.framework */,
+				CAA250D6AAA3D67B08752113FC8DF203 /* QuartzCore.framework */,
+				32BFCC5FCF20BECEF409508768C21E64 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E780249F91911A730E333A90D2310F4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				625B83948A79C33B9D73D05C0FD102D5 /* ChameleonFramework.modulemap */,
+				92543C2CA6E4C844DDAD389B41D00C57 /* ChameleonFramework.xcconfig */,
+				6D0617F2DC23B64848F3A62597A6929B /* ChameleonFramework-dummy.m */,
+				DFFA091EAC41E56732BECAB3770C20BD /* ChameleonFramework-prefix.pch */,
+				189DFEF6DD0D84BF53DC6850625F9AF1 /* ChameleonFramework-umbrella.h */,
+				92E52EC86A1A7C11009690EB1AD83353 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		FEFD933C667702BEE72C1370D69F5085 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC6E35CFB09A7429E95F394CF577BF /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0467BF3D41B61EF5DE90E3C239F2735A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43DA6808D1DFF1924A1F619226953AE7 /* Pods-CuntingLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27E593C1991B21E16B3E2CD380016D59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE532ADC20BE069A1F9160FC280E7E20 /* Pods-CuntingLabelTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31229EF28346E1F07EE78DE0D9D1D4AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8DCFCBBDF0EAF948122F3D0B95AAC3B /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59890BED3AF6CEBA2D3BC9A5C45EFBA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC9330EBDF327051B12E42AE8741B6E /* Chameleon.h in Headers */,
+				738E4E0555CE3C233C400AE87B9887E4 /* Chameleon_.h in Headers */,
+				097AE4014349090D14C6C5637F8A3464 /* ChameleonConstants.h in Headers */,
+				4A0E71E9E2BD86AA8CB6077A95CDC034 /* ChameleonEnums.h in Headers */,
+				64C89D98B9D3B9C57971E1E137233980 /* ChameleonFramework-umbrella.h in Headers */,
+				5CCC419BB423F48192FBA3C7D7D6B7DA /* ChameleonMacros.h in Headers */,
+				FF4A8EFE1154C1FFD58B48E978298871 /* NSArray+Chameleon.h in Headers */,
+				B71968ADC80D9CA74C57959B609E46F6 /* UIAppearance+Swift.h in Headers */,
+				C8F191C4FA3530AAEBAD2DDE2604DCF2 /* UIButton+Chameleon.h in Headers */,
+				CFB8C96C7D3F7331E409D296466B923A /* UIColor+Chameleon.h in Headers */,
+				4194C2418EEF62E01342A820B5EF9C71 /* UIColor+ChameleonPrivate.h in Headers */,
+				7708E07C85FF6C2BC400C15CCDB7EB1C /* UIImage+ChameleonPrivate.h in Headers */,
+				00967A34C0778275E41D1CBA32E398F8 /* UILabel+Chameleon.h in Headers */,
+				6FFDAD2F800BC27FCF40E92B71D88CF3 /* UINavigationController+Chameleon.h in Headers */,
+				D36BC9B0C925A5244E16EE70E4809EE6 /* UIView+ChameleonPrivate.h in Headers */,
+				AF9FDFE994A206795619E469B68C614E /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B4F3BE8D8D9C32488FE770AAD5718C0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B5D197CA69C03F2225537D85A3F05 /* Pods-CuntingLabelUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15344BEA18B78AF69B9DF29DF0F73576 /* Pods-CuntingLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE36ADFDC7C2FF684AB2391C2D5D62B1 /* Build configuration list for PBXNativeTarget "Pods-CuntingLabel" */;
+			buildPhases = (
+				91EACE8CB9A64148083212248927060B /* Sources */,
+				4432A82662DF3A541EE6E2638EECEFC9 /* Frameworks */,
+				0467BF3D41B61EF5DE90E3C239F2735A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512D18AE92C0F74B21C454A160037F72 /* PBXTargetDependency */,
+				1AA08EFD184566CD61BC3B98B900D8CC /* PBXTargetDependency */,
+			);
+			name = "Pods-CuntingLabel";
+			productName = "Pods-CuntingLabel";
+			productReference = BF7D38E418093947F6049F0B58D606C1 /* Pods_CuntingLabel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2B8DACAB384193A4A834AF70E4AAA803 /* Pods-CuntingLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36A71266CCB7751F9D6923B41CA01092 /* Build configuration list for PBXNativeTarget "Pods-CuntingLabelTests" */;
+			buildPhases = (
+				90C56C0120AD08291080B8517F6B5D67 /* Sources */,
+				1671205C34EA46569F3EEEEC4B23C3A2 /* Frameworks */,
+				27E593C1991B21E16B3E2CD380016D59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CuntingLabelTests";
+			productName = "Pods-CuntingLabelTests";
+			productReference = E594D4207A8AAF0CEFAAA9FB3438C9C1 /* Pods_CuntingLabelTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46DAEF9FB54DB43748A2D6667301896B /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824F84BD82AE156800C18914D18555F9 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				939D53DD56BDD36D867FDFE75CE0C42D /* Sources */,
+				366EBECC8B6069A65EBF97D24C5D00C5 /* Frameworks */,
+				31229EF28346E1F07EE78DE0D9D1D4AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 8959DEB12D05C6247C95CC8B7B5AD46D /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5172ACAB7FEA22813859DC97CA0AA16F /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E21BC30675BE10E5FB0192B03002EA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				A007306A9F7EAF30B21BFDB4E741628B /* Sources */,
+				FC1A73E30C8322A70D5DCD63B04CAE84 /* Frameworks */,
+				59890BED3AF6CEBA2D3BC9A5C45EFBA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = B5E18B571ED3F14DA525FF25279A7FB6 /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC80ABF996D882EF1F1BE5AFDFE2FC43 /* Pods-CuntingLabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC497E40F34269760B5FC19AA87720EC /* Build configuration list for PBXNativeTarget "Pods-CuntingLabelUITests" */;
+			buildPhases = (
+				30456E872F47167C2092EF210E6E7796 /* Sources */,
+				C22F8D7D9DC751D867314AD41E885ED4 /* Frameworks */,
+				9B4F3BE8D8D9C32488FE770AAD5718C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CuntingLabelUITests";
+			productName = "Pods-CuntingLabelUITests";
+			productReference = B519C9C816893F926D5C4A128E361F8B /* Pods_CuntingLabelUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 943B0D6F55B1EC42A534F4F4373913E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5172ACAB7FEA22813859DC97CA0AA16F /* ChameleonFramework */,
+				15344BEA18B78AF69B9DF29DF0F73576 /* Pods-CuntingLabel */,
+				2B8DACAB384193A4A834AF70E4AAA803 /* Pods-CuntingLabelTests */,
+				AC80ABF996D882EF1F1BE5AFDFE2FC43 /* Pods-CuntingLabelUITests */,
+				46DAEF9FB54DB43748A2D6667301896B /* SnapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30456E872F47167C2092EF210E6E7796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C9250278390D6AF76833BA195DEA21 /* Pods-CuntingLabelUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C56C0120AD08291080B8517F6B5D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80574E42933C12B655F8157CDEB6EB1C /* Pods-CuntingLabelTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91EACE8CB9A64148083212248927060B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836EF498AE71D2602AE071622D43CC69 /* Pods-CuntingLabel-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		939D53DD56BDD36D867FDFE75CE0C42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3866ACB5CF90B195855FCC68EC51174D /* Constraint.swift in Sources */,
+				A7656485B76A44BEAE798F836F5BC27C /* ConstraintAttributes.swift in Sources */,
+				C55BB4A252C9B694A1D26086AAB56E78 /* ConstraintDescription.swift in Sources */,
+				0AA166EF68FDE80F7893955CA9817F6F /* ConstraintItem.swift in Sources */,
+				7CB2D4C542E9B72FA525F9C1B9D5AC06 /* ConstraintMaker.swift in Sources */,
+				B1E40E7FF3A25A4F1C59875B848CD842 /* ConstraintRelation.swift in Sources */,
+				9E3D2B7DA138BF7D68036714B5A3B701 /* Debugging.swift in Sources */,
+				F14A978C66D9582A60BC3AD765386B62 /* EdgeInsets.swift in Sources */,
+				4F367EB70B75939773B0E62D64DB9EF4 /* LayoutConstraint.swift in Sources */,
+				E3C064D8777AF800822CBA19D80A7A3C /* SnapKit-dummy.m in Sources */,
+				4C76EF27EBFBFAA01C67FBBEAE2029B7 /* SnapKit.swift in Sources */,
+				176EC707D0B06FB57AAEE9A773EBA4D2 /* View+SnapKit.swift in Sources */,
+				FD581E49BD638EC0CB590EF2AB2865AB /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A007306A9F7EAF30B21BFDB4E741628B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B365A3A01EF135485F43412F83C7C65 /* Chameleon_.m in Sources */,
+				1236ECB96A915EC617957A42838CDD7B /* ChameleonConstants.m in Sources */,
+				E0C720836FBA4E75E3E57069219B7107 /* ChameleonFramework-dummy.m in Sources */,
+				A2AC9FD0F42F638C48E72F88E8BC4C80 /* ChameleonShorthand.swift in Sources */,
+				24E7D20FD204AF7AACB30A3B7C16388C /* NSArray+Chameleon.m in Sources */,
+				D2B61A78124FCB785E11A98BDD0471BC /* UIAppearance+Swift.m in Sources */,
+				A46A3EAB602FB4840C5AB8493F86AE4F /* UIButton+Chameleon.m in Sources */,
+				01C6F32401BCBE9FF9B3C095B031D92B /* UIColor+Chameleon.m in Sources */,
+				E0AFA39DA4A01D8A8FE3D4EC76250F46 /* UIColor+ChameleonPrivate.m in Sources */,
+				15E113F19F49C0C0472242BD6E849A1B /* UIImage+ChameleonPrivate.m in Sources */,
+				9B3EEA3CFA303B0D28A8034C16BFDA15 /* UILabel+Chameleon.m in Sources */,
+				4C6CEBA607BEA909A9CCB80C6AB6AE88 /* UINavigationController+Chameleon.m in Sources */,
+				C08DCA5180F1A15542694844C66B0EFB /* UIView+ChameleonPrivate.m in Sources */,
+				5177B3B95985D0A2CF8376A6FD4488C2 /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA08EFD184566CD61BC3B98B900D8CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 46DAEF9FB54DB43748A2D6667301896B /* SnapKit */;
+			targetProxy = 4472D3685D3F2D4FD0A27AFD89026873 /* PBXContainerItemProxy */;
+		};
+		512D18AE92C0F74B21C454A160037F72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 5172ACAB7FEA22813859DC97CA0AA16F /* ChameleonFramework */;
+			targetProxy = 53738675C11440856310FC9F1497B5D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0246618F44F6AAC7C0CF00C528B2F236 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABAF8895173D4B811671CCB59F0CD2A9 /* Pods-CuntingLabelTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CuntingLabelTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuntingLabelTests/Pods-CuntingLabelTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CuntingLabelTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32E0D8D44DEFD756C55C35F88BF7501B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A79B4C50C0645F37E3B0C1EC89A652 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		340F93A695427326322B8319C17AA9FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12AD56F11798E59A636130E041B99B39 /* Pods-CuntingLabel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CuntingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuntingLabel/Pods-CuntingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CuntingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C89DD37EAA0B792D105FD9B1BE2EF95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187529FF227B9DB753478E8796490B61 /* Pods-CuntingLabelTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CuntingLabelTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuntingLabelTests/Pods-CuntingLabelTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CuntingLabelTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55B23AADC51506EE1351EF28BA3504DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92543C2CA6E4C844DDAD389B41D00C57 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FC0EB987305721D8C37123DF7B19FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2F8A8C6C2B95458FD7464685F8C39FF /* Pods-CuntingLabel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CuntingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuntingLabel/Pods-CuntingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CuntingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89950CE4DADBB6D8151DDFA119BC4B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A79B4C50C0645F37E3B0C1EC89A652 /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A8BC9BF0F9C319D0F999F278C7B41BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9604F98B37816C77F3ED36B8064BF50 /* Pods-CuntingLabelUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CuntingLabelUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuntingLabelUITests/Pods-CuntingLabelUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CuntingLabelUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC0F797C6CFD6A2EE34C448622133782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92543C2CA6E4C844DDAD389B41D00C57 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9D1361087DC516F56A7E3BD74981BBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35167311A27AF18F74D6918FE2E5E385 /* Pods-CuntingLabelUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CuntingLabelUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CuntingLabelUITests/Pods-CuntingLabelUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CuntingLabelUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36A71266CCB7751F9D6923B41CA01092 /* Build configuration list for PBXNativeTarget "Pods-CuntingLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C89DD37EAA0B792D105FD9B1BE2EF95 /* Debug */,
+				0246618F44F6AAC7C0CF00C528B2F236 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E21BC30675BE10E5FB0192B03002EA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0F797C6CFD6A2EE34C448622133782 /* Debug */,
+				55B23AADC51506EE1351EF28BA3504DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824F84BD82AE156800C18914D18555F9 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89950CE4DADBB6D8151DDFA119BC4B98 /* Debug */,
+				32E0D8D44DEFD756C55C35F88BF7501B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC497E40F34269760B5FC19AA87720EC /* Build configuration list for PBXNativeTarget "Pods-CuntingLabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9D1361087DC516F56A7E3BD74981BBA /* Debug */,
+				9A8BC9BF0F9C319D0F999F278C7B41BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE36ADFDC7C2FF684AB2391C2D5D62B1 /* Build configuration list for PBXNativeTarget "Pods-CuntingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC0EB987305721D8C37123DF7B19FDD /* Debug */,
+				340F93A695427326322B8319C17AA9FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		37CA3D8F1D30939C0064E89E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3D8E1D30939C0064E89E /* AppDelegate.swift */; };
-		37CA3D911D30939C0064E89E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3D901D30939C0064E89E /* ViewController.swift */; };
-		37CA3D941D30939C0064E89E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CA3D921D30939C0064E89E /* Main.storyboard */; };
 		37CA3D961D30939C0064E89E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37CA3D951D30939C0064E89E /* Assets.xcassets */; };
 		37CA3D991D30939C0064E89E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37CA3D971D30939C0064E89E /* LaunchScreen.storyboard */; };
 		37CA3DA41D30939C0064E89E /* CuntingLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3DA31D30939C0064E89E /* CuntingLabelTests.swift */; };
 		37CA3DAF1D30939C0064E89E /* CuntingLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3DAE1D30939C0064E89E /* CuntingLabelUITests.swift */; };
+		37CA3DBD1D3093BB0064E89E /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3DBC1D3093BB0064E89E /* Main.swift */; };
+		37CA3DC11D3093F30064E89E /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3DC01D3093F30064E89E /* CountingLabel.swift */; };
+		37CA3DC51D30BDC80064E89E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37CA3DC41D30BDC80064E89E /* Config.swift */; };
+		37D411131D30BF38004E24FC /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D411121D30BF38004E24FC /* CardView.swift */; };
+		97B513BEFEAD4939A8F94269 /* Pods_CuntingLabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCDCFB94D90B51A3D67FA04A /* Pods_CuntingLabel.framework */; };
+		D97A79551DD0A09053974315 /* Pods_CuntingLabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7947E3D0168B321A6319CA05 /* Pods_CuntingLabelUITests.framework */; };
+		DFFF4B4212D68E73C821379C /* Pods_CuntingLabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A8AA3F498DAF488B78AC2E7 /* Pods_CuntingLabelTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		37CA3D8B1D30939C0064E89E /* CuntingLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CuntingLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CA3D8E1D30939C0064E89E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37CA3D901D30939C0064E89E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		37CA3D931D30939C0064E89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37CA3D951D30939C0064E89E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37CA3D981D30939C0064E89E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37CA3D9A1D30939C0064E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,19 @@
 		37CA3DAA1D30939C0064E89E /* CuntingLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuntingLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CA3DAE1D30939C0064E89E /* CuntingLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuntingLabelUITests.swift; sourceTree = "<group>"; };
 		37CA3DB01D30939C0064E89E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37CA3DBC1D3093BB0064E89E /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		37CA3DC01D3093F30064E89E /* CountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		37CA3DC41D30BDC80064E89E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		37D411121D30BF38004E24FC /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4F68A88FE5D74AF0E7B91833 /* Pods-CuntingLabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuntingLabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CuntingLabelTests/Pods-CuntingLabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		5C765F82F1ED428AE697EF69 /* Pods-CuntingLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuntingLabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-CuntingLabel/Pods-CuntingLabel.release.xcconfig"; sourceTree = "<group>"; };
+		7947E3D0168B321A6319CA05 /* Pods_CuntingLabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuntingLabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8AA3F498DAF488B78AC2E7 /* Pods_CuntingLabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuntingLabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81003A7ABBB81054B1512EBC /* Pods-CuntingLabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuntingLabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CuntingLabelUITests/Pods-CuntingLabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A247BA71DC6E5365B4155ED6 /* Pods-CuntingLabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuntingLabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CuntingLabelUITests/Pods-CuntingLabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9A2C8C1E5E8C322D952BF26 /* Pods-CuntingLabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuntingLabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CuntingLabelTests/Pods-CuntingLabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCDCFB94D90B51A3D67FA04A /* Pods_CuntingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CuntingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEC40E1224B90CA1D014ABB /* Pods-CuntingLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CuntingLabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CuntingLabel/Pods-CuntingLabel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97B513BEFEAD4939A8F94269 /* Pods_CuntingLabel.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFF4B4212D68E73C821379C /* Pods_CuntingLabelTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D97A79551DD0A09053974315 /* Pods_CuntingLabelUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214AD292F865253B732B5BB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFEC40E1224B90CA1D014ABB /* Pods-CuntingLabel.debug.xcconfig */,
+				5C765F82F1ED428AE697EF69 /* Pods-CuntingLabel.release.xcconfig */,
+				C9A2C8C1E5E8C322D952BF26 /* Pods-CuntingLabelTests.debug.xcconfig */,
+				4F68A88FE5D74AF0E7B91833 /* Pods-CuntingLabelTests.release.xcconfig */,
+				A247BA71DC6E5365B4155ED6 /* Pods-CuntingLabelUITests.debug.xcconfig */,
+				81003A7ABBB81054B1512EBC /* Pods-CuntingLabelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		37CA3D821D30939C0064E89E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				37CA3DA21D30939C0064E89E /* CuntingLabelTests */,
 				37CA3DAD1D30939C0064E89E /* CuntingLabelUITests */,
 				37CA3D8C1D30939C0064E89E /* Products */,
+				214AD292F865253B732B5BB5 /* Pods */,
+				D488C2EE1F6D482933DA8CB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,11 @@
 		37CA3D8D1D30939C0064E89E /* CuntingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				37CA3D8E1D30939C0064E89E /* AppDelegate.swift */,
-				37CA3D901D30939C0064E89E /* ViewController.swift */,
-				37CA3D921D30939C0064E89E /* Main.storyboard */,
-				37CA3D951D30939C0064E89E /* Assets.xcassets */,
-				37CA3D971D30939C0064E89E /* LaunchScreen.storyboard */,
-				37CA3D9A1D30939C0064E89E /* Info.plist */,
+				37CA3DC31D30BDC00064E89E /* Config */,
+				37CA3DC21D30BDB20064E89E /* Support */,
+				37CA3DBC1D3093BB0064E89E /* Main.swift */,
+				37CA3DC01D3093F30064E89E /* CountingLabel.swift */,
+				37D411121D30BF38004E24FC /* CardView.swift */,
 			);
 			path = CuntingLabel;
 			sourceTree = "<group>";
@@ -125,6 +158,35 @@
 			path = CuntingLabelUITests;
 			sourceTree = "<group>";
 		};
+		37CA3DC21D30BDB20064E89E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				37CA3D8E1D30939C0064E89E /* AppDelegate.swift */,
+				37CA3D951D30939C0064E89E /* Assets.xcassets */,
+				37CA3D971D30939C0064E89E /* LaunchScreen.storyboard */,
+				37CA3D9A1D30939C0064E89E /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		37CA3DC31D30BDC00064E89E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				37CA3DC41D30BDC80064E89E /* Config.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		D488C2EE1F6D482933DA8CB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCDCFB94D90B51A3D67FA04A /* Pods_CuntingLabel.framework */,
+				7A8AA3F498DAF488B78AC2E7 /* Pods_CuntingLabelTests.framework */,
+				7947E3D0168B321A6319CA05 /* Pods_CuntingLabelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37CA3DB31D30939C0064E89E /* Build configuration list for PBXNativeTarget "CuntingLabel" */;
 			buildPhases = (
+				9C141BFC508DEE8DA8E4A6DE /* [CP] Check Pods Manifest.lock */,
 				37CA3D871D30939C0064E89E /* Sources */,
 				37CA3D881D30939C0064E89E /* Frameworks */,
 				37CA3D891D30939C0064E89E /* Resources */,
+				4EBDCA3A1E5ECAC7D37A256B /* [CP] Embed Pods Frameworks */,
+				EAF083586C40B2915620B31F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +214,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37CA3DB61D30939C0064E89E /* Build configuration list for PBXNativeTarget "CuntingLabelTests" */;
 			buildPhases = (
+				DC6C55CD6DEF2BEA9D0CA05E /* [CP] Check Pods Manifest.lock */,
 				37CA3D9B1D30939C0064E89E /* Sources */,
 				37CA3D9C1D30939C0064E89E /* Frameworks */,
 				37CA3D9D1D30939C0064E89E /* Resources */,
+				105A95996AB567B73E4FF6A2 /* [CP] Embed Pods Frameworks */,
+				557414D5777945B3A0D41978 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37CA3DB91D30939C0064E89E /* Build configuration list for PBXNativeTarget "CuntingLabelUITests" */;
 			buildPhases = (
+				3E7A76BB571469842ACB9E71 /* [CP] Check Pods Manifest.lock */,
 				37CA3DA61D30939C0064E89E /* Sources */,
 				37CA3DA71D30939C0064E89E /* Frameworks */,
 				37CA3DA81D30939C0064E89E /* Resources */,
+				BBBCAB4E316BB6BD1F6AFECB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,7 +301,6 @@
 			files = (
 				37CA3D991D30939C0064E89E /* LaunchScreen.storyboard in Resources */,
 				37CA3D961D30939C0064E89E /* Assets.xcassets in Resources */,
-				37CA3D941D30939C0064E89E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +320,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		105A95996AB567B73E4FF6A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuntingLabelTests/Pods-CuntingLabelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E7A76BB571469842ACB9E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4EBDCA3A1E5ECAC7D37A256B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuntingLabel/Pods-CuntingLabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		557414D5777945B3A0D41978 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuntingLabelTests/Pods-CuntingLabelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C141BFC508DEE8DA8E4A6DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BBBCAB4E316BB6BD1F6AFECB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuntingLabelUITests/Pods-CuntingLabelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6C55CD6DEF2BEA9D0CA05E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF083586C40B2915620B31F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CuntingLabel/Pods-CuntingLabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37CA3D871D30939C0064E89E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37CA3D911D30939C0064E89E /* ViewController.swift in Sources */,
+				37CA3DBD1D3093BB0064E89E /* Main.swift in Sources */,
+				37CA3DC51D30BDC80064E89E /* Config.swift in Sources */,
+				37CA3DC11D3093F30064E89E /* CountingLabel.swift in Sources */,
 				37CA3D8F1D30939C0064E89E /* AppDelegate.swift in Sources */,
+				37D411131D30BF38004E24FC /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +488,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		37CA3D921D30939C0064E89E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37CA3D931D30939C0064E89E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		37CA3D971D30939C0064E89E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -397,6 +584,7 @@
 		};
 		37CA3DB41D30939C0064E89E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEC40E1224B90CA1D014ABB /* Pods-CuntingLabel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CuntingLabel/Info.plist;
@@ -408,6 +596,7 @@
 		};
 		37CA3DB51D30939C0064E89E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C765F82F1ED428AE697EF69 /* Pods-CuntingLabel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CuntingLabel/Info.plist;
@@ -419,6 +608,7 @@
 		};
 		37CA3DB71D30939C0064E89E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9A2C8C1E5E8C322D952BF26 /* Pods-CuntingLabelTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CuntingLabelTests/Info.plist;
@@ -431,6 +621,7 @@
 		};
 		37CA3DB81D30939C0064E89E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F68A88FE5D74AF0E7B91833 /* Pods-CuntingLabelTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CuntingLabelTests/Info.plist;
@@ -443,6 +634,7 @@
 		};
 		37CA3DBA1D30939C0064E89E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A247BA71DC6E5365B4155ED6 /* Pods-CuntingLabelUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CuntingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -454,6 +646,7 @@
 		};
 		37CA3DBB1D30939C0064E89E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81003A7ABBB81054B1512EBC /* Pods-CuntingLabelUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CuntingLabelUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -482,6 +675,7 @@
 				37CA3DB51D30939C0064E89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CA3DB61D30939C0064E89E /* Build configuration list for PBXNativeTarget "CuntingLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +684,7 @@
 				37CA3DB81D30939C0064E89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CA3DB91D30939C0064E89E /* Build configuration list for PBXNativeTarget "CuntingLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +693,7 @@
 				37CA3DBB1D30939C0064E89E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
